@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cogwit:horizon_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "cogwit:singularity_core"
+  },
+  "result": {
+    "id": "cogwit:horizon_helmet",
+    "count": 1
+  }
+}

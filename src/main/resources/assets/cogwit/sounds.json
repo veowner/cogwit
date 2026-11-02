@@ -1,0 +1,98 @@
+{
+  "horizon.visor_open": {
+    "subtitle": "subtitles.cogwit.horizon.visor_open",
+    "sounds": [
+      "cogwit:horizon/visor_open_0",
+      "cogwit:horizon/visor_open_1",
+      "cogwit:horizon/visor_open_2"
+    ]
+  },
+  "horizon.visor_close": {
+    "subtitle": "subtitles.cogwit.horizon.visor_close",
+    "sounds": [
+      "cogwit:horizon/visor_close_0",
+      "cogwit:horizon/visor_close_1",
+      "cogwit:horizon/visor_close_2"
+    ]
+  },
+  "horizon.plate": {
+    "subtitle": "subtitles.cogwit.horizon.plate",
+    "sounds": [
+      "cogwit:horizon/plate_0",
+      "cogwit:horizon/plate_1",
+      "cogwit:horizon/plate_2"
+    ]
+  },
+  "horizon.suit_up": {
+    "subtitle": "subtitles.cogwit.horizon.suit_up",
+    "sounds": [
+      "cogwit:horizon/suit_up_0",
+      "cogwit:horizon/suit_up_1",
+      "cogwit:horizon/suit_up_2"
+    ]
+  },
+  "beep.hello": {
+    "subtitle": "subtitles.cogwit.beep.hello",
+    "sounds": [
+      "cogwit:beep/hello_0",
+      "cogwit:beep/hello_1",
+      "cogwit:beep/hello_2"
+    ]
+  },
+  "beep.yes": {
+    "subtitle": "subtitles.cogwit.beep.yes",
+    "sounds": [
+      "cogwit:beep/yes_0",
+      "cogwit:beep/yes_1",
+      "cogwit:beep/yes_2"
+    ]
+  },
+  "beep.no": {
+    "subtitle": "subtitles.cogwit.beep.no",
+    "sounds": [
+      "cogwit:beep/no_0",
+      "cogwit:beep/no_1",
+      "cogwit:beep/no_2"
+    ]
+  },
+  "beep.alert": {
+    "subtitle": "subtitles.cogwit.beep.alert",
+    "sounds": [
+      "cogwit:beep/alert_0",
+      "cogwit:beep/alert_1",
+      "cogwit:beep/alert_2"
+    ]
+  },
+  "beep.happy": {
+    "subtitle": "subtitles.cogwit.beep.happy",
+    "sounds": [
+      "cogwit:beep/happy_0",
+      "cogwit:beep/happy_1",
+      "cogwit:beep/happy_2"
+    ]
+  },
+  "beep.think": {
+    "subtitle": "subtitles.cogwit.beep.think",
+    "sounds": [
+      "cogwit:beep/think_0",
+      "cogwit:beep/think_1",
+      "cogwit:beep/think_2"
+    ]
+  },
+  "beep.sad": {
+    "subtitle": "subtitles.cogwit.beep.sad",
+    "sounds": [
+      "cogwit:beep/sad_0",
+      "cogwit:beep/sad_1",
+      "cogwit:beep/sad_2"
+    ]
+  },
+  "beep.chirp": {
+    "subtitle": "subtitles.cogwit.beep.chirp",
+    "sounds": [
+      "cogwit:beep/chirp_0",
+      "cogwit:beep/chirp_1",
+      "cogwit:beep/chirp_2"
+    ]
+  }
+}

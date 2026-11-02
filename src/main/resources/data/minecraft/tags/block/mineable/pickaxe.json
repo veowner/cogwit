@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "cogwit:cell_charger", "required": false }
+  ]
+}

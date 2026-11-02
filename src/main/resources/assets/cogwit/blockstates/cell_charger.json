@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "axis=z,has_cell=false": {
+      "model": "cogwit:block/cell_charger"
+    },
+    "axis=z,has_cell=true": {
+      "model": "cogwit:block/cell_charger_filled"
+    },
+    "axis=x,has_cell=false": {
+      "model": "cogwit:block/cell_charger",
+      "y": 90
+    },
+    "axis=x,has_cell=true": {
+      "model": "cogwit:block/cell_charger_filled",
+      "y": 90
+    }
+  }
+}

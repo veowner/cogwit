@@ -1,0 +1,35 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond",
+    "minecraft:diamond_block",
+    "minecraft:emerald",
+    "minecraft:emerald_block",
+    "minecraft:netherite_ingot",
+    "minecraft:netherite_scrap",
+    "minecraft:ancient_debris",
+    "minecraft:netherite_block",
+    "minecraft:nether_star",
+    "minecraft:totem_of_undying",
+    "minecraft:enchanted_golden_apple",
+    "minecraft:golden_apple",
+    "minecraft:heavy_core",
+    "minecraft:echo_shard",
+    "minecraft:trial_key",
+    "minecraft:ominous_trial_key",
+    "minecraft:elytra",
+    "minecraft:heart_of_the_sea",
+    "minecraft:dragon_egg",
+    "minecraft:trident",
+    "cogwit:singularity_core",
+    "cogwit:horizon_template",
+    {
+      "id": "#c:gems/diamond",
+      "required": false
+    },
+    {
+      "id": "#c:gems/emerald",
+      "required": false
+    }
+  ]
+}

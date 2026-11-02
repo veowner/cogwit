@@ -1,0 +1,5 @@
+Sounds in sounds/horizon come from Kenney's "Sci-Fi Sounds" pack (www.kenney.nl), released under
+Creative Commons Zero (CC0): http://creativecommons.org/publicdomain/zero/1.0/
+visor_open_* = doorOpen_000..002, visor_close_* = doorClose_000..002, suit_up_* = forceField_000..002,
+plate_* = impactMetal_000..002.
+Sounds in sounds/beep are synthesized by tools/synth_beeps.py in this repository (no third-party audio).

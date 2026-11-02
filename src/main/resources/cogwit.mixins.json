@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.cogwit.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerExhaustionMixin"
+  ],
+  "client": [
+    "ControlifyHidExitMixin",
+    "HumanoidLandingMixin",
+    "IronsKeyConsumeMixin",
+    "IronsSpellWheelPadMixin",
+    "MouseHandlerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

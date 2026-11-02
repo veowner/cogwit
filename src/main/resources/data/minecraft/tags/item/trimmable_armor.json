@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "cogwit:horizon_helmet",
+    "cogwit:horizon_chestplate",
+    "cogwit:horizon_leggings",
+    "cogwit:horizon_boots"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cogwit:item/cogwit_talisman"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cogwit:state": 0.25
+      },
+      "model": "cogwit:item/cogwit_talisman_blink"
+    },
+    {
+      "predicate": {
+        "cogwit:state": 0.5
+      },
+      "model": "cogwit:item/cogwit_talisman_think"
+    },
+    {
+      "predicate": {
+        "cogwit:state": 0.6
+      },
+      "model": "cogwit:item/cogwit_talisman_happy"
+    },
+    {
+      "predicate": {
+        "cogwit:state": 0.65
+      },
+      "model": "cogwit:item/cogwit_talisman_scared"
+    },
+    {
+      "predicate": {
+        "cogwit:state": 0.75
+      },
+      "model": "cogwit:item/cogwit_talisman_sleep"
+    },
+    {
+      "predicate": {
+        "cogwit:state": 0.9
+      },
+      "model": "cogwit:item/cogwit_talisman_ultra"
+    },
+    {
+      "predicate": {
+        "cogwit:state": 1.0
+      },
+      "model": "cogwit:item/cogwit_talisman_ultra_flicker"
+    }
+  ]
+}

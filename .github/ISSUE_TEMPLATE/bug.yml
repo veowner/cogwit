@@ -1,0 +1,52 @@
+name: Bug
+description: Something broke, crashed or doesn't work the way the page says
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: And what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again
+      placeholder: |
+        1. Feed Cogwit copper
+        2. Get hit by a skeleton
+        3. ...
+  - type: input
+    id: cogwit
+    attributes:
+      label: Cogwit version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: neoforge
+    attributes:
+      label: NeoForge version
+      placeholder: "21.1.264"
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - Singleplayer
+        - Multiplayer server
+    validations:
+      required: true
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods
+      description: A list, or a link to your modpack.
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: For a crash, paste a link to `logs/latest.log` or the crash report on https://mclo.gs, or drop the file here.

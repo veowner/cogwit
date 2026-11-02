@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EPE",
+    "PHP",
+    "EPE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "H": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "cogwit:singularity_core",
+    "count": 1
+  }
+}

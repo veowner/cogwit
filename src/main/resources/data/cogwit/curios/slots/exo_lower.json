@@ -1,0 +1,9 @@
+{
+  "size": 1,
+  "order": 31,
+  "icon": "cogwit:slot/exo_lower",
+  "add_cosmetic": false,
+  "use_native_gui": true,
+  "render_toggle": true,
+  "drop_rule": "DEFAULT"
+}

@@ -1,0 +1,11 @@
+name: Idea
+description: Something Cogwit could do, or a mod he should know about
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What should happen in the game, and when.
+    validations:
+      required: true

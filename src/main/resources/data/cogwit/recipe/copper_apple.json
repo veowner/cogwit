@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CAC",
+    "CCC"
+  ],
+  "key": {
+    "C": { "item": "minecraft:copper_ingot" },
+    "A": { "item": "minecraft:apple" }
+  },
+  "result": { "id": "cogwit:copper_apple", "count": 1 }
+}

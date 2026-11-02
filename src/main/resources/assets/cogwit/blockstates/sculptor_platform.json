@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "cogwit:block/sculptor_platform" }
+  }
+}
