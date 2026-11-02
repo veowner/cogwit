@@ -1,5 +1,5 @@
 """Fills in Cogwit's Modrinth page: uploads the GIFs and the recipe to the gallery, then writes the body with their links,
-along with the title and summary from <release_dir>/modrinth-meta.json.
+along with the title, summary and links from <release_dir>/modrinth-meta.json.
 
 Run: set -a; . ~/.config/cogwit/modrinth.env; set +a
      uv run --no-project --with requests python -I tools/page_modrinth.py <release_dir> [--dry]
@@ -122,7 +122,8 @@ def main():
     print(f"body: {len(body)} characters")
     if DRY:
         return
-    page = {"title": META["title"], "description": META["summary"], "body": body}
+    page = {"title": META["title"], "description": META["summary"], "body": body,
+            "issues_url": META["issues_url"], "source_url": META["source_url"]}
     check(requests.patch(f"{API}/project/{pid}", headers=HEADERS, json=page, timeout=30), "write page")
     project = check(requests.get(f"{API}/project/{pid}", headers=HEADERS, timeout=30), "read back").json()
     print(json.dumps({"status": project["status"], "gallery": len(project["gallery"]),

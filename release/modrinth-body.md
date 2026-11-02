@@ -2,7 +2,7 @@
 
 Cogwit is a little copper robot who sits in your charm slot and rides on your shoulder. You feed him copper. In return he learns from every kind of damage you take and starts taking part of it off, and he keeps an eye on what you don't see coming, like the creeper behind you or the lava on the other side of the block you're mining.
 
-It started as a helper for a co-op world I play with a friend, and it's still an alpha: the two of us are the only people who have played it so far. Expect things to break.
+It started as a helper for a co-op world I play with a friend, and it's still an alpha: the two of us are the only people who have played it so far. Expect things to break, and if something does, [open an issue on GitHub](https://github.com/veowner/cogwit/issues/new/choose).
 
 ## How he works
 
@@ -163,4 +163,4 @@ Yes, the same as on a server.
 
 ## Credits and license
 
-The code, models, textures and beeps were all made for this mod and are under the MIT license, so you're free to put Cogwit in a modpack or build on its code as long as the license notice comes along. The Horizon armor sounds are Kenney's Sci-Fi Sounds (CC0).
+The code, models, textures and beeps were all made for this mod and are under the MIT license ([source on GitHub](https://github.com/veowner/cogwit)), so you're free to put Cogwit in a modpack or build on its code as long as the license notice comes along. The Horizon armor sounds are Kenney's Sci-Fi Sounds (CC0).

@@ -51,7 +51,8 @@ the ore scan, the back shield, an agent that only does what you allow, a fightin
 a safe escape pearl and a compass back to your things after you die. Also in this version: the copper exoframe, the
 Event Horizon suit and trophies from 35 bosses.
 
-So far two people have played it, on one server, so expect bugs."""
+So far two people have played it, on one server, so expect bugs. If something breaks, open an issue:
+https://github.com/veowner/cogwit/issues"""
 
 
 def save():
